@@ -1,11 +1,11 @@
 import React from "react";
-import "./login.css";
+import "./Signup.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserPlus } from "@fortawesome/free-solid-svg-icons"; // Import a specific icon
 
 // ...
 
-function Login() {
+function Signup() {
   return (
     <div className="container mt-5 mb-5 d-flex justify-content-center">
       <div className="card px-1 py-4">
@@ -105,10 +105,13 @@ function Login() {
           >
             Register
           </button>
+          <span className="terms">
+            Already have an Account <a href="/login">Click here</a>
+          </span>
         </div>
       </div>
     </div>
   );
 }
 
-export default Login;
+export default Signup;
