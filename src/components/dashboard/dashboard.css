@@ -75,4 +75,7 @@
   .logout__icon {
     font-size: larger;
   }
+  .dash__nav {
+    background-color: var(--primary-color);
+  }
 }
