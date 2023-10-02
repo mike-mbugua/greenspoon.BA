@@ -6,7 +6,8 @@ import {
   faRightFromBracket,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
-import greenspoonLogo from "../../assets/images/download (1).png";
+// import greenspoonLogo from "../../assets/images/download (1).png";
+import greenspoonLogo from "./../../assets/images/greenspoon-logo.svg";
 import event from "./../../assets/images/pexels-photo-1190297.jpeg";
 import sales from "./../../assets/images/pexels-photo-7947707.jpeg";
 import calendar from "./../../assets/images/calendar.webp";
