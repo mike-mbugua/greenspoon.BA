@@ -1,0 +1,78 @@
+.dash__nav {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-bottom: 1px solid var(--secondary-color);
+}
+.notifications,
+.user__info,
+.my__profile,
+.logout {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  text-align: center;
+}
+.my__profile a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.dashboard__body {
+  justify-content: space-evenly;
+  margin-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.events {
+  box-sizing: border-box;
+  margin: 10px;
+  width: 31%;
+  height: 400px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  border-radius: 8px;
+}
+.events img {
+  margin: 1px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 60%;
+  width: 100%;
+}
+.events img {
+  object-fit: cover;
+}
+.events .btn {
+  width: 98%;
+  background-color: var(--secondary-color);
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard__body {
+    flex-direction: column;
+  }
+  .logo img {
+    width: 100px;
+  }
+  .dash__nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid var(--secondary-color);
+  }
+  .notifications,
+  .user__info,
+  .my__profile,
+  .logout {
+    font-size: smaller;
+  }
+
+  .events {
+    width: 100%; /* Make each event take up the full width */
+    margin: 10px 0;
+    height: 430px;
+  }
+  .logout__icon {
+    font-size: larger;
+  }
+}
