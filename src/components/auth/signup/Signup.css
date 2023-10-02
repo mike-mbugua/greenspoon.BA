@@ -1,5 +1,6 @@
-body {
-  background-color: var(--background-color);
+.signup {
+  height: 110vh;
+  margin-top: 0;
 }
 .card {
   display: flex;
@@ -9,7 +10,7 @@ body {
   text-align: center;
   width: 400px;
   background-color: var(--background-color);
-  border-radius: 12px;
+  /* border-radius: 12px; */
 }
 .card-body {
   display: flex;
@@ -26,34 +27,14 @@ label.radio input {
   visibility: hidden;
   pointer-events: none;
 }
-label.radio span {
-  padding: 7px 14px;
-  border: 2px solid #eee;
-  display: inline-block;
-  color: #039be5;
-  border-radius: 10px;
-  width: 100%;
-  height: 48px;
-  line-height: 27px;
-}
-label.radio input:checked + span {
-  border-color: #039be5;
-  background-color: #81d4fa;
-  color: #fff;
-  border-radius: 9px;
-  height: 48px;
-  line-height: 27px;
-}
+
 .form-control {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   height: 48px;
-  border: 2px solid var(--secondary-color);
-  border-radius: 10px;
+  border: 1px solid var(--secondary-color);
+  /* border-radius: 10px; */
 }
-.form-control:focus {
-  box-shadow: none;
-  border: 2px solid #039be5;
-}
+
 .agree-text {
   font-size: 12px;
 }
@@ -69,4 +50,19 @@ label.radio input:checked + span {
 }
 #btn {
   background-color: var(--secondary-color);
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-color: var(--background-color);
+  }
+  .card {
+    background-color: var(--primary-color);
+    border-radius: 12px;
+  }
+  .information {
+    color: var(--background-color);
+  }
+  .new__ba {
+    color: var(--secondary-color);
+  }
 }
