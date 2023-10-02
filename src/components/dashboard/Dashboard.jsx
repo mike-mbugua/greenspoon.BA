@@ -23,8 +23,8 @@ function Dashboard() {
         </div>
         <div className="user__info">
           <p>
-            Welcome <br /> <span style={{ color: "#008600" }}>Michael</span> to
-            the BA dashboard
+            <span style={{ color: "#008600" }}>Michael</span> <br />
+            Welcome
           </p>
         </div>
         <div className="notifications">
@@ -45,7 +45,7 @@ function Dashboard() {
           />
 
           <a href="">
-            <span>My profile</span>
+            <span>profile</span>
           </a>
         </div>
         <div className="logout">
