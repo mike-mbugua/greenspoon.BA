@@ -1,5 +1,6 @@
 import React from "react";
 import "./../signup/Signup.css";
+import greespoonLogo from "../../../assets/images/greenspoon-logo.svg";
 
 function Login() {
   return (
@@ -12,6 +13,7 @@ function Login() {
             <label className="radio"> </label>{" "}
           </div>
           <div className="user-icon"></div>
+          <img src={greespoonLogo} alt="" />
           <h6 className="information mt-4">
             <h2></h2>
             <p>Please Login to access your dashboard</p>
