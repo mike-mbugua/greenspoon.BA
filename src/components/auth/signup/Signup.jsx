@@ -1,24 +1,31 @@
 import React from "react";
 import "./Signup.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import greenspoon from "./../../../assets/images/greenspoon-logo.svg";
 import { faUserPlus } from "@fortawesome/free-solid-svg-icons"; // Import a specific icon
 
 // ...
 
 function Signup() {
   return (
-    <div className="container mt-5 mb-5 d-flex justify-content-center">
-      <div className="card px-1 py-4">
+    <div className="container   d-flex justify-content-center signup">
+      <div className="card ">
         <div className="card-body">
           <div className="d-flex flex-row">
             {" "}
-            <label className="radio mr-1"> </label>{" "}
-            <label className="radio"> </label>{" "}
+            {/* <label className="radio mr-1"> </label>{" "} */}
+            {/* <label className="radio"> </label>{" "} */}
           </div>
           <div className="user-icon">
-            <FontAwesomeIcon icon={faUserPlus} size="3x" color="#008600" />
+            <img src={greenspoon} alt="" width={200} />
+            {/* <FontAwesomeIcon
+              icon={faUserPlus}
+              size="3x"
+              color="#008600"
+              className="new__ba"
+            /> */}
           </div>
-          <h6 className="information mt-4">
+          <h6 className="information ">
             <h2>Welcome New BA</h2>
             <p>Please register to access your dashboard</p>
           </h6>
@@ -29,7 +36,7 @@ function Signup() {
                   className="form-control"
                   type="text"
                   placeholder="Name"
-                />{" "}
+                />
               </div>
             </div>
           </div>
@@ -37,7 +44,7 @@ function Signup() {
             <div className="col-sm-12">
               <div className="form-group">
                 <div className="input-group">
-                  {" "}
+                  {/* {" "} */}
                   <input
                     className="form-control"
                     type="text"
@@ -89,7 +96,7 @@ function Signup() {
               </div>
             </div>
           </div>
-          <div className=" d-flex flex-column text-center px-5 mt-3 mb-3">
+          <div className=" d-flex flex-column text-center ">
             {" "}
             <small className="agree-text">
               By Registering you agree to{" "}
