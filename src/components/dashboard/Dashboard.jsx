@@ -23,7 +23,7 @@ function Dashboard() {
         </div>
         <div className="user__info">
           <p>
-            Welcome <span style={{ color: "#008600" }}>Michael</span> <br /> to
+            Welcome <br /> <span style={{ color: "#008600" }}>Michael</span> to
             the BA dashboard
           </p>
         </div>
