@@ -72,9 +72,9 @@ function Dashboard() {
               and also a guideline to the type of events we attend
             </p>
           </div>
-          <div className="btn btn-primary">
-            <a href="/events">View Events</a>{" "}
-          </div>
+          <a href="/events" className="btn btn-primary">
+            View Events
+          </a>
         </div>
 
         <div className="events">
@@ -88,9 +88,9 @@ function Dashboard() {
               BAs.
             </p>
           </div>
-          <div className="btn btn-primary">
-            <a href="/sales">View sales</a>
-          </div>
+          <a href="/sales" className="btn btn-primary">
+            View sales
+          </a>
         </div>
 
         <div className="events">
@@ -103,9 +103,9 @@ function Dashboard() {
               this page and it will guide you.
             </p>
           </div>
-          <div className="btn btn-primary">
-            <a href="/schedule">View the schedule</a>
-          </div>
+          <a href="/schedule" className="btn btn-primary">
+            View the schedule
+          </a>
         </div>
 
         <div className="events">
@@ -118,9 +118,9 @@ function Dashboard() {
               complain as well as suggestion.
             </p>
           </div>
-          <div className="btn btn-primary">
-            <a href="/suggestions">Make Suggestion/Complain</a>
-          </div>
+          <a href="/suggestions" className="btn btn-primary">
+            Make Suggestion/Complain
+          </a>
         </div>
 
         <div className="events">
@@ -134,9 +134,9 @@ function Dashboard() {
               to do so
             </p>
           </div>
-          <div className="btn btn-primary">
-            <a href="/budget">Fill the Budget form</a>
-          </div>
+          <a href="/budget" className="btn btn-primary">
+            Fill the Budget form
+          </a>
         </div>
 
         <div className="events">
@@ -149,9 +149,9 @@ function Dashboard() {
               their emails. Validations will be used in this
             </p>
           </div>
-          <div className="btn btn-primary">
-            <a href="/colleagues">View Colleagues</a>
-          </div>
+          <a href="/colleagues" className="btn btn-primary">
+            View Colleagues
+          </a>
         </div>
       </div>
     </div>
