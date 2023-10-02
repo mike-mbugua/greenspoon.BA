@@ -72,7 +72,9 @@ function Dashboard() {
               and also a guideline to the type of events we attend
             </p>
           </div>
-          <div className="btn btn-primary">View Events</div>
+          <div className="btn btn-primary">
+            <a href="/events">View Events</a>{" "}
+          </div>
         </div>
 
         <div className="events">
@@ -86,7 +88,9 @@ function Dashboard() {
               BAs.
             </p>
           </div>
-          <div className="btn btn-primary">View sales</div>
+          <div className="btn btn-primary">
+            <a href="/sales">View sales</a>
+          </div>
         </div>
 
         <div className="events">
@@ -99,7 +103,9 @@ function Dashboard() {
               this page and it will guide you.
             </p>
           </div>
-          <div className="btn btn-primary">View the schedule</div>
+          <div className="btn btn-primary">
+            <a href="/schedule">View the schedule</a>
+          </div>
         </div>
 
         <div className="events">
@@ -112,7 +118,9 @@ function Dashboard() {
               complain as well as suggestion.
             </p>
           </div>
-          <div className="btn btn-primary">make suggestion/Complain</div>
+          <div className="btn btn-primary">
+            <a href="/suggestions">Make Suggestion/Complain</a>
+          </div>
         </div>
 
         <div className="events">
@@ -121,11 +129,14 @@ function Dashboard() {
           <div className="details">
             <p>
               Since the payment will be after every two weeks you will need to
-              fill a few details such as number of working days,reimbursement
-              etc... use this page to do so
+              fill a few details such as number of working
+              days,reimbursement,any extra payment details etc... use this page
+              to do so
             </p>
           </div>
-          <div className="btn btn-primary">Fill the Budget form</div>
+          <div className="btn btn-primary">
+            <a href="/budget">Fill the Budget form</a>
+          </div>
         </div>
 
         <div className="events">
@@ -138,7 +149,9 @@ function Dashboard() {
               their emails. Validations will be used in this
             </p>
           </div>
-          <div className="btn btn-primary">View Colleagues</div>
+          <div className="btn btn-primary">
+            <a href="/colleagues">View Colleagues</a>
+          </div>
         </div>
       </div>
     </div>
