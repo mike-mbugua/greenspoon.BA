@@ -3,7 +3,7 @@ import "./event.css";
 
 function EventCard({ description, image, name, people, type, confirmed }) {
   return (
-    <div className="events">
+    <div className="event">
       <div className="event-card-container">
         <img src={image} alt="" />
         <h3 className="name">{name}</h3>
